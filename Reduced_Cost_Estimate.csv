@@ -1,0 +1,25 @@
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+4827.636,6497.13998,82793.32,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),Application Server,Amazon EC2 ,3185.136,3032.499985,39575.14,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 2, Peak: 8, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t4g.xlarge), Pricing strategy ( 3 Year  All upfront), Enable monitoring (disabled), EBS Storage amount (10 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Web Application,Amazon EC2 ,1592.568,296.219995,5147.21,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Daily, (Workload days: Monday, Tuesday, Wednesday, Thursday, Friday, Baseline: 2, Peak: 6, Duration of peak: 8 Hr 30 Min)), Advance EC2 instance (t4g.large), Pricing strategy ( 3 Year  All upfront), Enable monitoring (disabled), EBS Storage amount (1 TB), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),Database (Master),Amazon RDS for MariaDB,0,851.34,10216.08,USD,,"Storage volume (General Purpose SSD (gp3)), Storage amount (1 TB), Quantity (1), Instance type (db.m7g.xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment selection (Multi-AZ), Pricing strategy (OnDemand), General Purpose SSD (gp3) - IOPS (12000), General Purpose SSD (gp3) - Throughput (1000 MiBps)"
+My Estimate,US East (N. Virginia),Bastion Host,Amazon EC2 ,49.932,0,49.93,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 1), Advance EC2 instance (t4g.nano), Pricing strategy (Compute Savings Plans 3 Year  All upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23.55,282.6,USD,,S3 Standard storage (1 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Amazon CloudFront (100 TB per month)"
+My Estimate,US East (N. Virginia),,AWS Web Application Firewall (WAF),0,20,240,USD,,"Number of Web Access Control Lists (Web ACLs) utilized (2 per month), Number of Rules added per Web ACL (5 per month)"
+My Estimate,US East (N. Virginia),CloudFront,Amazon CloudFront,0,870.4,10444.8,USD,,Data transfer out to internet (10 TB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,921.6,11059.2,USD,,"DT Inbound: Not selected (0 TB per month), DT Outbound: Internet (10 TB per month), DT Intra-Region: (0 TB per month), Data transfer cost (921.6)"
+My Estimate,US East (N. Virginia),Database (Read Replica),Amazon RDS for MariaDB,0,481.53,5778.36,USD,,"Storage volume (General Purpose SSD (gp3)), Storage amount (1 TB), Quantity (1), Instance type (db.m7g.large), Utilization (On-Demand only) (100 %Utilized/Month), Deployment selection (Multi-AZ), Pricing strategy (OnDemand), General Purpose SSD (gp3) - IOPS (12000), General Purpose SSD (gp3) - Throughput (500 MiBps)"
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
+,,,,,,,,,
+"Reduced the compute power of Application Server (EC2) & Web Server (EC2) by changing the instance type, maximum instances of auto scaling group, along with the compute power of RDS instance both master and read replica.",,,,,,,,,
